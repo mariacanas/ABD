@@ -1,0 +1,224 @@
+
+
+*{
+	--fuentedeletra : 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	--fondo-principal: black;
+    --fondo-atras: #D4D4D4;
+	--color-barraNavegacion: #333;
+	--letras-barraNavegacion: white;
+    --letras-barraNavegacion-encima: yellow;
+	--color-encima-barraNavegacion: #111;
+    --color-borde: yellow;
+}
+
+body {
+    background-color: var(--fondo-atras);
+    color: black;
+    margin: auto;
+    width: 100%;
+}
+
+header, footer {
+	font-family: var(--fuentedeletra);
+    font-size: 25px;
+    background-color: var(--fondo-principal);
+    display: flex;
+    justify-content: space-between;
+    border: solid 2px var(--color-borde);
+    border-radius: 3px;
+	margin: 10px;
+    color: var(--letras-barraNavegacion);
+}
+
+
+h3{
+    text-align: center;
+}
+
+.contenidoCabecera{
+    text-align: center;
+    margin: 20px auto 20px auto;
+}
+
+
+img{
+    width: 15%;
+}
+
+.saludo{
+    margin: auto;
+    width: 50%;
+}
+
+.saludo a, footer a{
+	color: var(--letras-barraNavegacion);
+    text-decoration: none;
+    font-style: var(--fuentedeletra);
+    font-weight: bold;
+	padding: 10px;
+}
+
+.saludo a:hover,footer a:hover{
+	color: var(--letras-barraNavegacion-encima);
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    display: block;
+    padding: 10px;
+}
+
+footer p{
+    font-size: 20px;
+}
+
+footer a{
+    font-size: 15px;
+    padding: 10px;
+   
+}
+
+#redes-sociales{
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+    padding: 10px;
+    border: solid 3px var(--color-borde);
+}
+
+.barraNav{
+    width: 85%;
+    margin: auto;
+    font-weight: bold;
+}
+
+.barraNav ul {
+    border: solid 3px var(--color-borde);
+    border-radius: 3px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background-color: var(--color-barraNavegacion);
+    font-family: var(--fuentedeletra);
+}
+
+
+.barraNav li a {
+    display: block;
+    color: var(--letras-barraNavegacion);
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.barraNav li a:hover {
+    background-color: var(--color-encima-barraNavegacion);
+}
+
+.contenido{
+	width: 900px;
+    height: auto;
+    margin: auto;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+}
+
+#formLogin, #formRegistro, #formRealizarLLamada,#formAñadirContacto, #formEditarDatos{
+    color: white;
+    background-color: var(--color-barraNavegacion);
+    padding: 20px;
+    border-radius:20px;
+    border: solid 3px var(--color-borde);
+}
+
+#formLogin label,#formRegistro label, #formEditarDatos label{
+    width: 100px;
+}
+
+#formLogin button, 
+#formRegistro button,
+.buscador-contactos button,
+#formRealizarLLamada button,
+#formAñadirContacto button,
+#formEditarDatos button{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#formLogin button:hover,
+#formRegistro button:hover, 
+.buscador-contactos button:hover,
+#formRealizarLLamada button:hover,
+#formAñadirContacto button:hover,
+#formEditarDatos button:hover{
+    color: white;
+    background-color: var(--fondo-principal);
+}
+
+fieldset{
+    text-align: center;
+    font-weight: bold;
+}
+
+.buscador-contactos{
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.buscador-contactos:hover{
+    text-decoration: none;
+}
+
+.buscador{
+    font-size: 25px;
+    color: black;
+    display: grid;
+    width: 50%;
+    margin: auto;
+}
+.buscador:hover{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
+table{
+    text-align: center;
+    margin: 10px auto;
+    color: black;
+}
+
+th{
+    margin:auto auto 100px auto;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    font-size: 20px;
+}
+
+tr{
+    border: solid 2px black;
+}
+
+td{
+    color: black;
+    background-color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+td a{
+    color: black;
+}
+
+.aviso{
+    text-align: center;
+    margin: auto;
+}
+
